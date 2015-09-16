@@ -1,0 +1,37 @@
+(git help, para ayuda)
+//Bajar carpeta entera que se esta bretenado desde github
+$ git clone https://github.com/berczeck/Mejorandola.git
+
+
+
+Ora si
+
+configuramos ususario(que no me sirvio)
+$ git  config --global user.name "Esteban0589"
+$ git  config --global user.email "eesprimo26@gmail.com"
+
+Generamos una llave ssh
+$ ssh-keygen
+(La guardo donde quiera, con enter se guarda en lugar defaul y se le da una clave)
+
+Veo la llave generada
+$ cat /c/Users/eespr/.ssh/id_rsa.pub
+
+algo como 
+"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCpYI8b0wwnTL0fllmLd3BfjsZEA8jz9SRcvDAAemCrIvrkslxg5mjXkTLtX81j5mUY/JFPx4X6ve9O7PnndxDKvPRSmpm7JwjYJ9XXrXO1Q3dS6kHdy9KYwEZhQNv0PIkZEsgc8G2L+1qXk9apmdGKevUeczWyFYGemcPxQnKPKQVs47GNQKyGAluA1pUc4id/0tExjA+xDB21UlRfERiQMM7zKBXwT166yTBjbPw0pmt/58/Sy4mx7ahOMbhcXdwbSh2bM7b2v/EX0vqQUstAqwu9nSCmHB8Eq2JwvQNbmhQV/yarB1ysdcb3uxBIfCcdjpzCUci/ULXwANGfv2XB eespr@EstebanToshiba"
+
+Inicio un rep en mi compu
+$ git init
+Digo archivos que voy a subir(para subir todo usar opcion 2) 
+op1:$ git add Prueba\ de\ github.txt
+op2:$ git add *
+Veo lo que hay por agregar y q no
+$ git status
+subo primer archivo a mi rep local 
+$ git commit -m "Primer archivo cargado"
+Conecto con rep en la web
+$ git remote add origin https://github.com/Esteban0589/Prueba-Github.git
+me traigo todo de la web
+$ git pull origin master
+mando todo a la web
+$ git push origin master
