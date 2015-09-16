@@ -2,6 +2,31 @@
 
 //Bajar carpeta entera que se esta bretenado desde github
 $ git clone https://github.com/berczeck/Mejorandola.git
+----------------------
+version del mop
+----------------------
+configuramos ususario(que no me sirvio)
+$ git  config --global user.name "Esteban0589"
+$ git  config --global user.email "a@a.com"
+
+se genera public key
+$ ssh-keygen
+se lee llave
+$ cat /c/Users/eespr/.ssh/id_rsa.pub
+
+get init //crea proyecto
+touch readme // crea un archivo
+git add readme // agrega archivo pa ser añadido
+git commit - m "DESCRIPCION" // asi se vera esta version que se subio
+git push //para subir archivo a web
+
+
+
+
+----------------------
+version mia
+----------------------
+
 
 
 
