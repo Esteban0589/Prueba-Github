@@ -27,9 +27,6 @@ git push //para subir archivo a web
 version mia
 ----------------------
 
-
-
-
 Ora si
 
 configuramos ususario(que no me sirvio)
