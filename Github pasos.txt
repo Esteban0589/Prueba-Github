@@ -14,7 +14,7 @@ $ ssh-keygen
 se lee llave
 $ cat /c/Users/eespr/.ssh/id_rsa.pub
 
-get init //crea proyecto
+git init //crea proyecto
 touch readme // crea un archivo
 git add readme // agrega archivo pa ser añadido
 git commit - m "DESCRIPCION" // asi se vera esta version que se subio
