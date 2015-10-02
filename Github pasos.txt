@@ -78,7 +78,7 @@ Ora si
 configuramos ususario(que no me sirvio)
 $ git  config --global user.name "Esteban0589"
 $ git  config --global user.email "eesprimo26@gmail.com"
-
+$ //git config --global credential.helper wincred //Para que no pida mas mi clave
 Generamos una llave ssh
 $ ssh-keygen
 (La guardo donde quiera, con enter se guarda en lugar defaul y se le da una clave)
