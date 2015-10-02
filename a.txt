@@ -1,5 +1,0 @@
-git config --global credential.helper wincred
-Habia un 
-Caballito 
-Que Queria 
-unodosdoscientos
